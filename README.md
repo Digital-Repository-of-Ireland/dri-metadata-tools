@@ -13,7 +13,7 @@ To use the Graphical User Interface install the Python 3 Tkinter module.
 Clone the repository from Github.
 
 # Converting Adlib XML to Dublin Core
-run the export.py file by double clicking, or running from the command line.
+run the adlib2dc.py file by double clicking, or running from the command line.
 
 Optional command-line parameters are --inputdir --outputdir
 
