@@ -175,6 +175,10 @@ def convert(inputdir, outputdir):
             body = ET.SubElement(dcroot, "{http://purl.org/dc/terms/}temporal")
             body.text = temporal.text
 
+        for temporal in root.iter('production.date.notes'):
+            body = ET.SubElement(dcroot, "{http://purl.org/dc/elements/1.1/}temporal")
+            body.text = temporal.text
+
         for spatial in root.iter('field_coll.notes'):
             body = ET.SubElement(dcroot, "{http://purl.org/dc/terms/}spatial")
             body.text = spatial.text
