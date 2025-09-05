@@ -6,5 +6,5 @@ Currently contains
 - Python script [adlib2dc.py](https://github.com/Digital-Repository-of-Ireland/dri-metadata-tools/python/adlib2dc) - A tool to convert Adlib XML to Dublin Core
 
 - Jupyter Notebooks
--- DRI_Ingest_Template_to_XML.ipynb
+-- DRI_Ingest_Template_to_XML.ipynb - Jupyter Notebook file to convert the DRI Metadata Template spreadsheet to Dublin Core XML files [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Digital-Repository-of-Ireland/dri-metadata-tools/HEAD?urlpath=%2Fdoc%2Ftree%2Fjupyter%2FDRI_Ingest_Template_to_XML.ipynb)
 
