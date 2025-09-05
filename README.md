@@ -3,8 +3,7 @@ This repo contains a selection of tools for preparing metadata in Dublin Core XM
 
 Currently contains
 
-- Python script [adlib2dc.py](https://github.com/Digital-Repository-of-Ireland/dri-metadata-tools/python/adlib2dc) - A tool to convert Adlib XML to Dublin Core
+- Python script [adlib2dc.py](https://github.com/Digital-Repository-of-Ireland/dri-metadata-tools/tree/main/python/adlib2dc) - A tool to convert Adlib XML to Dublin Core
 
-- Jupyter Notebooks
--- DRI_Ingest_Template_to_XML.ipynb - Jupyter Notebook file to convert the DRI Metadata Template spreadsheet to Dublin Core XML files [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Digital-Repository-of-Ireland/dri-metadata-tools/HEAD?urlpath=%2Fdoc%2Ftree%2Fjupyter%2FDRI_Ingest_Template_to_XML.ipynb)
+- [Jupyter Notebooks](https://github.com/Digital-Repository-of-Ireland/dri-metadata-tools/tree/main/jupyter) - a collection of Jupyter Notebooks to perform various processing and conversions
 
