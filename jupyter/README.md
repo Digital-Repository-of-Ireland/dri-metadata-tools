@@ -20,12 +20,14 @@ This notebook contains three code steps which must be executed in order. Before 
 
 ![Screenshot showing the folder icon and File Manager in MyBinder.](./assets/FileBrowser.png)
 
+As you execute the steps, you may see some output messages or be asked to provide input. This will happen immediately below the currently executing cell.
+
+![Screenshot showing code output and input prompts when running a code cell.](./assets/InputOutput.png)
+
 ### Steps
 1. The "Initialisation" step will set up the environment for the notebook and will ask you to identify the input metadata file and the output folder. It also creates some code functions which will be used.
 2. The "Check and Clean the Metadata" step reads in your metadata file and performs some checks to make sure that it can be converted to Dublin Core XML files. It will ask you to identify the tab in your spreadsheet that contains the metadata and may ask you to identify the DC field to which to map any columns of your spreadsheet that it does not recognise.
 3. The "Process Metadata and create XML files" step creates one XML file in Dublin Core format for each row in your spreadsheet. When all rows are processed, it will attempt to create a zipfile and tar.gz archive of the output folder which you can download.
-
-loop on file search so that it doesn’t go on to the next step if it can’t find the file
 
 output some instructions at the point of input that make it clear that if you get an error you would need to stop and rerun that cell
 
