@@ -1,22 +1,10 @@
 # dri-metadata-tools
-Scripts for converting metadata from one format to another.
+This repo contains a selection of tools for preparing metadata in Dublin Core XML format suitable for ingest to the Digital Repository of Ireland, or another platform that supports Dublin Core metadata.
 
 Currently contains
 
-- Adlib XML -> Dublin Core
+- Python script [adlib2dc.py](https://github.com/Digital-Repository-of-Ireland/dri-metadata-tools/python/adlib2dc) - A tool to convert Adlib XML to Dublin Core
 
-# Installation
-Install Python 3 for your system.
-
-To use the Graphical User Interface install the Python 3 Tkinter module.
-
-Clone the repository from Github.
-
-# Converting Adlib XML to Dublin Core
-run the adlib2dc.py file by double clicking, or running from the command line.
-
-Optional command-line parameters are --inputdir --outputdir
-
-If you do not pass the inputdir and outputdir on the command line you will be prompted to enter or select them. If you have Tkinter installed you can select these via a Graphical User Interface, otherwise they can be typed in on the command line.
-
+- Jupyter Notebooks
+-- DRI_Ingest_Template_to_XML.ipynb
 

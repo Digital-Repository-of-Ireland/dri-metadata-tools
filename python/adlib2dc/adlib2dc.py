@@ -7,11 +7,9 @@ from lxml import etree as ET
 from urllib.parse import urlparse
 import requests
 import re
-import sparql
 
 gui = True
 try:
-#    from tkinter import simpledialog
     from tkinter import filedialog
     from tkinter import *
 except ImportError:
