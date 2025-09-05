@@ -10,6 +10,6 @@ To use these notebooks, it is not necessary to fully understand what the code is
 You can access each notebook and find detailed instructions on how to use them by clicking on the links below.
 
 ## [DRI Ingest Template to XML](https://github.com/Digital-Repository-of-Ireland/dri-metadata-tools/tree/main/jupyter/DRI_Ingest_Template_to_XML)
-A Jupyter Notebook file to convert the [DRI Metadata Template spreadsheet](https://doi.org/10.7486/DRI.qn603p95v-8) to Dublin Core XML files.
+The [DRI Ingest Template to XML](https://github.com/Digital-Repository-of-Ireland/dri-metadata-tools/tree/main/jupyter/DRI_Ingest_Template_to_XML) notebook converts the [DRI Metadata Template spreadsheet](https://doi.org/10.7486/DRI.qn603p95v-8) to Dublin Core XML files.
 
 
