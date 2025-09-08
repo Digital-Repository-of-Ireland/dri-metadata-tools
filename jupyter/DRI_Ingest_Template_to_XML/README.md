@@ -2,13 +2,11 @@
 
 Jupyter notebooks are documents that blend text, code and its output. They are often used to share a researcher's work in a transparent way, allowing all of the research processes and steps to be understood and reproduced.
 
-The notebooks provided here allow users to manipulate metadata. They may ask you to upload some files or provide a link to metadata online. By running the code in these notebooks on your metadata, you can clean or transform it in some way which will help you to produce rich metadata for ingest into the Digital Repository of Ireland, or another platform that supports Dublin Core metadata.
-
-To use these notebooks, it is not necessary to fully understand what the code is doing. You simply need to run the code blocks in the correct order, and provide the appropriate input when requested.
-
 This Jupyter Notebook will convert the [DRI Metadata Template spreadsheet](https://doi.org/10.7486/DRI.qn603p95v-8) to Dublin Core XML files.
 
-To use this notebook, you need your metadata in a .xlsx spreadsheet format, with the Dublin Core metadata field names as column headings. If you don't already have your metadata in a suitable format, download and populate the [DRI Metadata Template spreadsheet](https://doi.org/10.7486/DRI.qn603p95v-8) with your metadata.
+To use this notebook, it is not necessary to fully understand what the code is doing. You simply need to run the code blocks in the correct order, and provide the appropriate input when requested. You can run the notebook in any Jupyter Notebook environment. To make it easier for you to run this notebook, we have also provided a Binder Launch botton, which you will find at the bottom of these instructions. Binder is an online service for building and sharing reproducible and interactive computational environments from online repositories. Clicking on the Launch button will start up a Binder environment so that you can run this notebook in your browser without having to install or configure anything. We recommend using this approach if you are not very familiar with Jupyter Notebooks. Please note that GitHub MarkDown does not provide an option to automatically open links in a new tab or window. For that reason, we recommend that you right click on the Binder Launch button and select the option to open the link in a new tab.
+
+Before using this notebook, you must ensure that your metadata is in a .xlsx spreadsheet format, with the Dublin Core metadata field names as column headings. If you don't already have your metadata in a suitable format, download and populate the [DRI Metadata Template spreadsheet](https://doi.org/10.7486/DRI.qn603p95v-8) with your metadata.
 
 You can use tools such as [OpenRefine](https://openrefine.org/) to clean your metadata, but in order to use this notebook, you must re-export the cleaned metadata as a .xlsx file.
 
