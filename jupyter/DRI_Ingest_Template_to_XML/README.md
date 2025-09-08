@@ -23,7 +23,7 @@ If you see any errors in the input area you will likely have to re-run that step
 ### Steps
 1. The "Initialisation" step will set up the environment for the notebook and will ask you to identify the input metadata file and the output folder. It also creates some code functions which will be used.
 2. The "Check and Clean the Metadata" step reads in your metadata file and performs some checks to make sure that it can be converted to Dublin Core XML files. It will ask you to identify the tab in your spreadsheet that contains the metadata and may ask you to identify the DC field to which to map any columns of your spreadsheet that it does not recognise.
-3. The "Process Metadata and create XML files" step creates one XML file in Dublin Core format for each row in your spreadsheet. When all rows are processed, it will attempt to create a zipfile and tar.gz archive of the output folder which you can download.
+3. The "Process Metadata and create XML files" step creates one XML file in Dublin Core format for each row in your spreadsheet. When all rows are processed, it will attempt to create a zipfile and tar.gz archive of the output folder which you can download (please note that one or other of these options may not be available on the particular Jupyter Notebook environment that you are using).
 
 You can download this notebook to run in your preferred Jupyter Notebooks environment, or lauch this notebook in Binder by clicking on the Binder button. [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Digital-Repository-of-Ireland/dri-metadata-tools/HEAD?urlpath=%2Fdoc%2Ftree%2Fjupyter%2FDRI_Ingest_Template_to_XML%2FDRI_Ingest_Template_to_XML.ipynb)
 
